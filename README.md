@@ -39,5 +39,5 @@ terraform apply -var-file "../tfvars/dev.tfvars"
 
 7. Clean up resources
 ```
-terraform destroy
+terraform destroy -var-file "../tfvars/dev.tfvars"
 ```
