@@ -1,14 +1,5 @@
 locals {
 
-  resources = {
-    rg = {
-      resource_type = "azurerm_resource_group"
-    }
-    ap = {
-      resource_type = "azurerm_windows_web_app"
-    }
-  }
-
   application_abbr = "tftest"
   tags = { "Purpose" = "TF Training" }
 }
